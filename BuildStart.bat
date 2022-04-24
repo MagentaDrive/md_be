@@ -16,4 +16,3 @@ start  mvn -f user_service\pom.xml spring-boot:run
 start mvn -f storage_service\pom.xml spring-boot:run
 start  mvn -f search_service\pom.xml spring-boot:run
 start  mvn -f post_service\pom.xml spring-boot:run
-start  minio.exe server %~dp0
